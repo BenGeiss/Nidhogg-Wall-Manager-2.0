@@ -1,0 +1,1 @@
+execute at @s run fill ~-1 ~2 ~2 ~-1 ~-2 ~-2 pink_stained_glass replace air
