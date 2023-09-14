@@ -12,4 +12,4 @@ execute if score #wall WallToggle matches 1 run execute if score #wall xorz matc
 
 #---When wall is turned off---
 #execute if score #wall WallToggle matches 0 run execute run say FREE
-execute if score #wall WallToggle matches 0 run execute at @p run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 air replace minecraft:pink_stained_glass
+execute if score #wall WallToggle matches 0 run execute at @a run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 air replace minecraft:pink_stained_glass
