@@ -1,1 +1,1 @@
-scoreboard operation #wall coordinate += #wall capture
+scoreboard players operation #wall coordinate += #wall capture
