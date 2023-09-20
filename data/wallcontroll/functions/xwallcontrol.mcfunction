@@ -1,3 +1,3 @@
-execute as @e[type=!minecraft:item] run execute if score @s xpos >= #wall coordinate run function wallcontroll:xwalleast
+execute as @e[type=!minecraft:item] run execute if score @s ypos > #wall miny run execute if score @s zpos >= #wall minW run execute if score @s zpos <= #wall maxW run execute if score @s xpos >= #wall coordinate run function wallcontroll:xwalleast
 
-execute as @e[type=!minecraft:item] run execute if score @s xpos <= #wall coordinate run function wallcontroll:xwallwest
+execute as @e[type=!minecraft:item] run execute if score @s ypos > #wall miny run execute if score @s zpos >= #wall minW run execute if score @s zpos <= #wall maxW run execute if score @s xpos <= #wall coordinate run function wallcontroll:xwallwest

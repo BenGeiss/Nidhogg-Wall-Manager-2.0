@@ -2,25 +2,27 @@
 scoreboard objectives add WallToggle dummy
 #for togglewasll
 scoreboard objectives add toToggle dummy
-#default no walls
-scoreboard players set #wall WallToggle 0 
 
-
-
-
-
+#this really shouldnt be changed from 1. distance from wall to be detected
+scoreboard players set #wall range 1
 
 scoreboard objectives add coordinate dummy
+scoreboard objectives add capture dummy
 scoreboard objectives add range dummy
 scoreboard objectives add xorz dummy
+scoreboard objectives add miny dummy
+scoreboard objectives add minW dummy
+scoreboard objectives add maxW dummy
 
 scoreboard objectives add xpos dummy
 scoreboard objectives add ypos dummy
 scoreboard objectives add zpos dummy
 
 
-scoreboard objectives add tmpPos dummy
 
+
+scoreboard objectives add tmpPos dummy
+scoreboard objectives add tmpPos2 dummy
 
 #config
 function wallcontroll:config
