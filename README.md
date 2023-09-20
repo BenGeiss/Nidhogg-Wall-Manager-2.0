@@ -18,3 +18,4 @@ configurable settings include:
 can also directly change settings in game with the scoreboard commands
 
 to implement: red glass to replace non-air
+todo: test in multiplayer
